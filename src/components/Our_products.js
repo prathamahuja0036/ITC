@@ -1,7 +1,5 @@
 import React from "react";
 import "./Our_products.css"
-import thali1 from "../Images/thali1.png"
-import thali3 from "../Images/thali3.png"
 
 import { productsData } from "./data/ProductsData";
 const Our_products = () => {
