@@ -1,0 +1,10 @@
+.why-heading h1{
+    text-align: center;
+    font-weight: 700;
+    color: #62052c;
+    font-size: 48px;
+}
+ .why-heading p{
+    text-align: left;
+    font-size: 20px;
+ }

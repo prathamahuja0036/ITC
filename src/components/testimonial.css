@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.test h2{
+    /*border: 2px solid black;*/
+    margin-top: 150px;
+    color: #81C408;
+    font-family: "Raleway",sans-serif;
+    font-weight: 500;
+}
+@media only screen and (max-width: 415px)
+{
+    .test h2{
+        font-weight: 600;
+        font-size: 22px;
+    }
+}
+.test1 h1{
+    font-size: 50px;
+    margin-top: -20px;
+    color: #45595b;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 415px)
+{
+    .test1 h1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+
+.test2{
+    /*border: 2px solid black;*/
+    height: 50px;
+    width: 100%;
+    margin-top: -30px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: right;
+    padding: 10px;
+}
+@media only screen and (max-width: 415px)
+{
+    .test2{
+        margin-top: -20px;
+    }
+}
+.btn1 i{
+    color: #81C408;
+    border: 0.5px solid #FFB524;
+    height: 35px;
+    width: 75px;
+    border-radius: 20px;
+    /* margin-left: 1200px; */
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 415px)
+{
+    .btn1 i{
+        margin-left: 340px;
+    }
+}
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .btn1 i{
+        display: none;
+    }
+    
+}
+.btn2 i{
+    color: #81C408;
+    border: 0.5px solid #FFB524;
+    height: 35px;
+    width: 75px;
+    border-radius: 20px;
+    margin-right: 150px;
+    line-height: 30px;
+
+    @media only screen and (max-width: 415px)
+    {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 415px)
+{
+    .btn1 i{
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .btn2 i{
+        display: none;
+    }
+    
+}
+.btn1 i:hover{
+    background-color: #FFB524;
+}
+.btn2 i:hover{
+    background-color: #FFB524;
+}
+
+
+
+.client{
+    /*border: 2px solid black;*/
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 415px)
+{
+    .client{
+        display: block;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 440px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .client{
+        display: block;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+    }
+    
+}
+
+
+.client1{
+    height: 230px;
+    width: 550px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    background-color: #F4F6F8;
+    color: #747D88;
+    text-align: justify;
+    padding: 20px;
+    position: relative;
+
+}
+@media only screen and (max-width: 415px)
+{
+    .client1{
+        height: 250px;
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+}
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .client1{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    
+}
+ hr{
+    border-color: #ffb524;
+    margin-top: 20px;
+    
+}
+
+.pick1{
+    /*border: 2px solid black;*/
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: url("/src/Images/testimonial-1.jpg");
+}
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .pick1{
+        height: 120px;
+        width: 120px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+}
+.pick1 h3{
+    height: 20px;
+    width: 150px;
+    margin-left: 120px;
+    font-size: 22px;
+    color: #45595b;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .pick1 h3{
+        font-size: 30px;
+        height: 25px;
+        width: 200px;
+        margin-left: 150px;
+    }
+    
+}
+.pick1 p{
+    height: 15px;
+    width: 150px;
+    margin-left: 120px;
+    font-size: 16px;
+    color: #5d6161;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .pick1 p{
+        font-size: 20px;
+        height: 25px;
+        width: 200px;
+        margin-left: 150px;
+        margin-top: 22px;
+    }
+    
+}
+.reviews-profession{
+    font-size: 16px;
+}
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .reviews-profession{
+        font-size: 30px;
+        height: 25px;
+        width: 200px;
+        margin-left: 150px;
+    }
+    
+}
+.fa-star{
+    color: #81C408;
+}
+.icon{
+    font-size: 50px;
+    /*border: 2px solid black;*/
+    height: 50px;
+    width: 80px;
+    margin-left: 460px;
+    color: #FFB524;
+    position: absolute;
+    top: 110px;
+    font-weight: 600;
+    
+}
+
+@media only screen and (max-width: 415px)
+{
+    .icon{
+        margin-left: 280px;
+        font-size: 40px;
+        top: 160px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .icon{
+        font-size: 60px;
+        margin-left: 80%;
+    }
+    
+}
+.client2{
+    height: 230px;
+    width: 550px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    background-color: #F4F6F8;
+    color: #747D88;
+    text-align: justify;
+    padding: 20px;
+    position: relative;
+
+}
+@media only screen and (max-width: 415px)
+{
+    .client2{
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .client2{
+        width: 100%;
+        height: 250px;
+    }
+    
+}
+.icon1{
+    font-size: 50px;
+    /*border: 2px solid black;*/
+    height: 50px;
+    width: 80px;
+    margin-left: 460px;
+    color: #FFB524;
+    position: absolute;
+    top: 110px;
+    font-weight: 600;
+    
+}
+@media only screen and (max-width: 415px)
+{
+    .icon1{
+        margin-left: 280px;
+        font-size: 40px;
+        top: 160px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width: 1050px)
+{
+    .icon1{
+        font-size: 60px;
+        margin-left: 80%;
+    }
+    
+}
+.icon{
+    @media  (max-width:766px){
+        display: none;
+    }
+}
