@@ -1,11 +1,11 @@
 export const component6Data = [{
-    imageid: "burger1",
+    imageid: "thali5",
     name: "Veg Thali",
     description: "4 Butter Roti + Rice +1 Daal + 1 Sabji + Salad",
     price: "Rs. 130"
 },
 {
-    imageid: "samosa2",
+    imageid: "thali6",
     name: "Special Thali",
     description: "4 Butter Roti + Rice + 1 Sabji + 1 Daal + 1 Paneer Dish + Raita +1 Sweet Dish + Salad",
     price: "Rs. 150"

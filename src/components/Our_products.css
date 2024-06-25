@@ -57,11 +57,11 @@
     height: 215px !important;
     transform: scale(1.2);
 }
-#burger1{
-    background-image: url("C:\Users\hp\Desktop\ITC-1\my-app\src\Images\thali5.jpg");
+#thali5{
+    background-image: url("/src/Images/thali5.jpg");
 }
-#samosa2{
-    background-image: url("C:\Users\hp\Desktop\ITC-1\my-app\src\Images\thali6.jpg");
+#thali6{
+    background-image: url("/src/Images/thali6.jpg");
 }
 #steam-momos3{
     background-image: url("C:\Users\hp\Desktop\ITC\IndianThaliCompany\src\Images\MIX-VEG-RAITA.jpg");
