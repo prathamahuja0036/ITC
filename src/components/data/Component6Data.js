@@ -11,13 +11,13 @@ export const component6Data = [{
     price: "Rs. 150"
 },
 {
-    imageid: "steam-momos3",
+    imageid: "vegraita",
     name: "Veg. Raita",
     description: "300Ml Vegetable Raita",
     price: "Rs.50"
 },
 {
-    imageid: "dahi-golgappe4",
+    imageid: "icecream",
     name: "Ice Cream's",
     description: "2 Scoops - ButterScotch / Vanilla / Chocolate",
     price: "Rs.80"
